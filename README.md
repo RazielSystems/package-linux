@@ -4,5 +4,6 @@
 ## docker 
 ### IP range 
 
-`sudo mkdir /etc/docker
-vim /etc/docker/daemon.json`
+`sudo mkdir /etc/docker`
+
+`vim /etc/docker/daemon.json`
