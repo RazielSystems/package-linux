@@ -7,3 +7,5 @@
 `sudo mkdir /etc/docker`
 
 `vim /etc/docker/daemon.json`
+
+[daemon.js](etc/docker/daemon.json)
