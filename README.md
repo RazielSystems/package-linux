@@ -4,7 +4,7 @@
 ## docker 
 #### IP range 
 
-```sh
+```bash
 sudo mkdir /etc/docker
 vim /etc/docker/daemon.json
 
