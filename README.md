@@ -4,8 +4,13 @@
 ## docker 
 #### IP range 
 
-`sudo mkdir /etc/docker`
+```sh
+sudo mkdir /etc/docker
+vim /etc/docker/daemon.json
 
-`vim /etc/docker/daemon.json`
+sudo pamac install --no-confirm docker docker-compose docker-scan
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+```
 
 [daemon.js](etc/docker/daemon.json)
