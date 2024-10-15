@@ -1,9 +1,8 @@
 {
-    "default-address-pools": [
-      {
-        "base": "192.160.0.0/16",
-        "size": 24
-      }
-    ]
-  }
-  
+  "default-address-pools": [
+    {
+      "base": "192.160.0.0/16",
+      "size": 24
+    }
+  ]
+}
