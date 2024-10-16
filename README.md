@@ -1,5 +1,13 @@
 # Archivos de configuración e instalación de Linux (ArchLinux - Manjaro)
 
+# Configuración inicial
+
+```bash
+sudo pamac build mkinitcpio-firmware
+sudo pamac -Syyu
+sudo pamac update --no-confirm
+sudo pamac checkupdates -a | awk '{print $1" "}'
+```
 
 ## docker 
 #### IP range 
@@ -14,3 +22,10 @@ sudo usermod -aG docker $USER
 ```
 
 [daemon.js](etc/docker/daemon.json)
+
+
+## impresoras
+```bash
+sudo pamac install --no-confirm manjaro-printer system-config-printer simple-scan
+sudo systemctl enable --now cups
+```
