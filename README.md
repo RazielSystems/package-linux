@@ -4,7 +4,7 @@
 
 ```bash
 sudo pamac build mkinitcpio-firmware
-sudo pamac -Syyu
+sudo pacman -Syyu
 sudo pamac update --no-confirm
 sudo pamac checkupdates -a | awk '{print $1" "}'
 ```
