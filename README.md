@@ -9,6 +9,15 @@ sudo pamac update --no-confirm
 sudo pamac checkupdates -a | awk '{print $1" "}'
 ```
 
+## Node NVM
+```bash
+sudo pamac install --no-confirm nvm
+nvm install --lts
+ 
+nvm alias default lts/*
+```
+
+
 ## docker 
 #### IP range 
 
