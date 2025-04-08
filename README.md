@@ -17,6 +17,19 @@ nvm install --lts
 nvm alias default lts/*
 ```
 
+#### Configure
+```bash
+#check shell type:
+echo $SHELL
+
+#if bash
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+ 
+#if zsh
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+```
+
+
 
 ## docker 
 #### IP range 
