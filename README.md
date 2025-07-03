@@ -51,3 +51,11 @@ sudo usermod -aG docker $USER
 sudo pamac install --no-confirm manjaro-printer system-config-printer simple-scan
 sudo systemctl enable --now cups
 ```
+
+## Configurar fuente de consola para warning de compilación de kernel
+```bash
+sudo vim /etc/vconsole.conf
+
+#agregar la siguiente linea
+FONT=lat9w-16
+```
